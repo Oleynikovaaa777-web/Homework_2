@@ -3,7 +3,7 @@
 # page 68-69
 
 
-# 10.
+# # 10.
 # A = input('Enter')
 # B = A[::-1]
 # for x in B:
@@ -12,15 +12,18 @@
 
 
 
+
+
 # 11.
-#
-
-
-
+# A = input('Enter')
+# for x in A:
+#     print(x)
 
 
 # 12.
 #
+a = float(input('Enter a number'))
+
 
 
 
