@@ -25,10 +25,16 @@
 # #
 # even = 0
 # #
-# count = 0
-# a = (input('Enter a number'))
-# b = a.split('.')
-# c = b[1]
+count = 0
+a = (input('Enter a number'))
+b = a.split('.')
+c = b[1]
+
+
+
+if c[0] == 2 or c[0] == 4 or c[0] == 6 or c[0] == 8 or c[1] == 2 or c[1] == 4 or c[1] == 6 or c[1] == 8 or c[2] == 2 or c[2] == 4 or c[2] == 6 or c[2] == 8:
+
+
 
 # c = int(c)
 # d = c.split(',')
@@ -209,12 +215,12 @@
 # 15.
 #
 
-a = (input('Enter a number'))
-b = a.split('.')
-c = b[1]
-
-if c[0] == c[1] or c[0] == c[2] or c[1] == c[2]:
-    print('Great job')
+# a = (input('Enter a number'))
+# b = a.split('.')
+# c = b[1]
+#
+# if c[0] == c[1] or c[0] == c[2] or c[1] == c[2]:
+#     print('Great job')
 
 
 
