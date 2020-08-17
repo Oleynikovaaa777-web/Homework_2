@@ -29,7 +29,35 @@
 # a = (input('Enter a number'))
 # b = a.split('.')
 # c = b[1]
+
+# c = int(c)
 # d = c.split(',')
+#
+# Transfer to int
+
+# for x in c:
+#     if x == 0 or x == 2 or x == 4 or x == 6 or x == 8:
+#         print(x)
+
+
+
+
+# x = (::2)
+#
+# for n in range:
+#
+# Print (n)
+
+
+
+
+#
+#
+# for x in d:
+#     if x % 2 == 0:
+#         print(x)
+
+
 #
 # for x in d:
 #     if x[0] == 8 or x[1] == 2 or x[2] == 4 or x[3] == 6:
@@ -159,13 +187,13 @@
 # 14.
 #
 
-a = (input('Enter a number'))
-b = a.split('.')
-c = b[1]
-
-d = c.split(',')
-for x in d:
-    print(max(x))
+# a = (input('Enter a number'))
+# b = a.split('.')
+# c = b[1]
+#
+# d = c.split(',')
+# for x in d:
+#     print(max(x))
 
 
 
