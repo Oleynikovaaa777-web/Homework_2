@@ -22,26 +22,35 @@
 
 # 12.
 #
+#
+# even = 0
+# a = (input('Enter a number'))
+# b = a.split('.')
+# c = b[1]
+# if c[::] == 2 or c[::] == 4 or c[::] == 6 or c[::] == 8:
+#     even += 1
+#     print(even)
 
-even = 0
-a = (input('Enter a number'))
-b = a.split('.')
-c = b[1].split()
-print(type(c))
-print(c)
 
 
+
+
+
+
+# # c = b[1].split()
+#
+#
+#
+# # for x in c:
+# #     if x%2 == 0:
+# #         even += 1
+# #         print(even)
+#
+#
 # for x in c:
-#     if x%2 == 0:
+#     if x == 2 and x == 4 and x == 6 and x == 8:
 #         even += 1
 #         print(even)
-
-
-# for x in c:
-# if x == 2 and x == 4 and x == 6 and x == 8:
-
-        # even += 1
-        # print(even)
 
 
 
