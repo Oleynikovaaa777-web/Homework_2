@@ -22,7 +22,30 @@
 
 # 12.
 #
-a = float(input('Enter a number'))
+
+even = 0
+a = (input('Enter a number'))
+b = a.split('.')
+c = b[1].split()
+print(type(c))
+print(c)
+
+
+# for x in c:
+#     if x%2 == 0:
+#         even += 1
+#         print(even)
+
+
+# for x in c:
+# if x == 2 and x == 4 and x == 6 and x == 8:
+
+        # even += 1
+        # print(even)
+
+
+
+
 
 
 
@@ -30,6 +53,15 @@ a = float(input('Enter a number'))
 
 # 13.
 #
+#
+# a = (input('Enter a number'))
+# b = a.split('.')
+# c = (b[1])
+# x = c.count('1')
+# print(x)
+
+
+
 
 
 
