@@ -24,9 +24,21 @@
 #
 #
 # even = 0
-# a = (input('Enter a number'))
-# b = a.split('.')
-# c = b[1]
+count = 0
+a = (input('Enter a number'))
+b = a.split('.')
+c = [b[1]]
+
+
+for x in c:
+    if x % 2 == 0:
+        count += 1
+        print(x)
+
+
+
+
+
 # if c[::] == 2 or c[::] == 4 or c[::] == 6 or c[::] == 8:
 #     even += 1
 #     print(even)
@@ -41,11 +53,9 @@
 #
 #
 #
-# # for x in c:
-# #     if x%2 == 0:
-# #         even += 1
-# #         print(even)
-#
+# for x in c:
+#     if x == 2 and x == 4 and x == 6 and x == 8:
+#         print(c.count(x))
 #
 # for x in c:
 #     if x == 2 and x == 4 and x == 6 and x == 8:
@@ -84,9 +94,9 @@
 # 15.
 #
 
-
-
-
-
-
+#
+#
+#
+#
+#
 # 16.
