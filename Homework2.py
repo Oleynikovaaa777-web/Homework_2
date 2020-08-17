@@ -20,17 +20,39 @@
 #     print(x)
 #
 #
+
+
+
+
+
+
+
+
 # # 12.
 # #
 # #
-# even = 0
-# #
-# count = 0
+#
 # a = (input('Enter a number'))
 # b = a.split('.')
-# c = b[1]
+# c = (b[1])
+# x = c.count('2')
+# y = c.count('4')
+# z = c.count('6')
+# n = c.count('8')
 #
+# d = x + y + z + n
 #
+# print(x)
+# print(y)
+# print(z)
+# print(n)
+#
+# print(d)
+
+
+
+#
+#Others:
 #
 # if c[0] == 2 or c[0] == 4 or c[0] == 6 or c[0] == 8 or c[1] == 2 or c[1] == 4 or c[1] == 6 or c[1] == 8 or c[2] == 2 or c[2] == 4 or c[2]== 6 or c[2] == 8:
 #     print('Ok')
@@ -245,3 +267,9 @@
 #
 # if c[0] == c[1] == c[2]:
 #     print('It is right')
+
+
+
+# Ex.5
+
+
