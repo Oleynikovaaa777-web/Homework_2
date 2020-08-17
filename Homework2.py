@@ -273,3 +273,6 @@
 # Ex.5
 
 
+# 1.    2, 3.....Count will be +1 in total
+# 2.    Once
+# 3.    Yes
