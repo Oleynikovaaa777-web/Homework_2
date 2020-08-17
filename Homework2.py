@@ -209,6 +209,21 @@
 # 15.
 #
 
+a = (input('Enter a number'))
+b = a.split('.')
+c = b[1]
+
+if c[0] == c[1] or c[0] == c[2] or c[1] == c[2]:
+    print('Great job')
+
+
+
+
+
+
+
+
+
 #
 #
 #
