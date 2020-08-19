@@ -4,270 +4,100 @@
 
 
 # # 10.
-# A = input('Enter')
+# A = input('Enter: ')
+# print(A)
 # B = A[::-1]
+# print(f'reversed A is {B}')
+#
 # for x in B:
-#     print(B)
-
-
-
-
+#     print(x)
 
 
 # 11.
-# A = input('Enter')
+# A = input('Enter: ')
 # for x in A:
 #     print(x)
+
+
+# 12.
+# input_number = str(float(input('Enter a number: ')))
+# input_number_to_list = input_number.split('.')
+# decimal_part = (input_number_to_list[1])
+# count = 0
 #
-#
-
-
-
-
-
-
-
-
-# # 12.
-# #
-# #
-#
-# a = (input('Enter a number'))
-# b = a.split('.')
-# c = (b[1])
-# x = c.count('2')
-# y = c.count('4')
-# z = c.count('6')
-# n = c.count('8')
-#
-# d = x + y + z + n
-#
-# print(x)
-# print(y)
-# print(z)
-# print(n)
-#
-# print(d)
-
-
-
-#
-#Others:
-#
-# if c[0] == 2 or c[0] == 4 or c[0] == 6 or c[0] == 8 or c[1] == 2 or c[1] == 4 or c[1] == 6 or c[1] == 8 or c[2] == 2 or c[2] == 4 or c[2]== 6 or c[2] == 8:
-#     print('Ok')
-#     count += 1
-
-
-
-# c = int(c)
-# d = c.split(',')
-#
-# Transfer to int
-
-# for x in c:
-#     if x == 0 or x == 2 or x == 4 or x == 6 or x == 8:
-#         print(x)
-
-
-
-
-# x = (::2)
-#
-# for n in range:
-#
-# Print (n)
-
-
-
-
-#
-#
-# for x in d:
-#     if x % 2 == 0:
-#         print(x)
-
-
-#
-# for x in d:
-#     if x[0] == 8 or x[1] == 2 or x[2] == 4 or x[3] == 6:
-#         print(x)
-
-
-#
-# for x in d:
-#     if x == 2 or x == 4 or x == 6 or x == 8:
-#         # even += x
-#         print(x)
-
-
-
-
-
-
-
-# print(c)
-# print(type(c))
-#
-#
-#
-# c = int(c)
-#
-# for x in d:
-#     if x[0] % 2 == 0 or x[1] % 2 == 0 or x[2] % 2 == 0 or x[3] % 2 == 0:
-#         even +=1
-#         print(even)
-#         print(x)
-
-
-
-
-
-
-
-
-
-
-
-
-
-# for x in c:
-#     if x == 2 or x == 4 or x == 6 or x == 8:
-#         even += x
-#         print(x)
-
-
-
-
-# for x in c:
-#     if x in c:
-#         even += 1
-#         print(c.count(x))
-
-# while c > 0:
-#     if c % 2 == 0:
-#         even += 1
-#         print(even)
-
-
-
-#
-# if c[::] == 2 or c[::] == 4 or c[::] == 6 or c[::] == 8:
-#     print(c)
-#
-#     # even += 1
-# print(even)
-
-#
-# for x in d:
-#     if x % 2 == 0:
+# for digit in decimal_part:
+#     if int(digit) % 2 == 0:
 #         count += 1
-#         print(x)
-
-
-
-
-
-# if c[::] == 2 or c[::] == 4 or c[::] == 6 or c[::] == 8:
-#     even += 1
-#     print(even)
-
-
-
-
-
-
-
-# # c = b[1].split()
 #
-#
-#
-# for x in c:
-#     if x == 2 and x == 4 and x == 6 and x == 8:
-#         print(c.count(x))
-#
-# for x in c:
-#     if x == 2 and x == 4 and x == 6 and x == 8:
-#         even += 1
-#         print(even)
-
-
-
-
-
-
-
+# print(count)
 
 
 # 13.
-#
-#
-# a = (input('Enter a number'))
+
+# a = (input('Enter a number: '))
 # b = a.split('.')
 # c = (b[1])
-# x = c.count('1')
-# print(x)
-
-
-
-
-
+# counter = 0
+# for digit in c:
+#     if int(digit) == 1:
+#         counter += 1
+# x = c.count('1') +
+# print(counter)
 
 
 # 14.
-#
 
-# a = (input('Enter a number'))
+# a = (input('Enter a number: '))
 # b = a.split('.')
 # c = b[1]
-#
-# d = c.split(',')
-# for x in d:
-#     print(max(x))
-
-
-
-
-
-
-
-
-
-
-
+# print(c)
+# # print(max(c)) +
+# max_number = 0
+# for digit in c:
+#     if int(digit) > max_number:
+#         max_number = int(digit)
+# print(max_number)
 
 # 15.
-#
 
-# a = (input('Enter a number'))
+# a = (input('Enter a number: '))
 # b = a.split('.')
 # c = b[1]
-#
-# if c[0] == c[1] or c[0] == c[2] or c[1] == c[2]:
-#     print('Great job')
+# '13927316238912163' => 20
 
+# for index, item in enumerate(c):
+#     if index != len(c) - 1:
+#         if c[index] == c[index + 1]:
+#             print('Got it')
+#             break
 
+# index = 0
+# while index < len(c) - 1:
+#     if c[index] == c[index + 1]:
+#         print('Got it')
+#         break
+#     index += 1
 
+# prev = None
+# for digit in c:
+#     if prev is not None:
+#         if digit == prev:
+#             print('Got it')
+#             break
+#     prev = digit
 
-
-
-
-
-
-#
-#
-#
-#
-#
 # 16.
 #
-# a = (input('Enter a number'))
-# b = a.split('.')
-# c = b[1]
-#
-# if c[0] == c[1] == c[2]:
-#     print('It is right')
+a = (input('Enter a number: '))
+b = a.split('.')
+c = b[1]
 
+standard = c[0]
+
+for digit in c:
+    if standard != digit:
+        print('Полундра!')
+        break
 
 
 # Ex.5
