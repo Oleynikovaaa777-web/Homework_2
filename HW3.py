@@ -2,16 +2,16 @@
 
 # 17
 # a = input('Enter a number')
-#
-#
+
 # x = None
-# b = a[0]
-# b = x*x
-# c = b.split('.')
-# d = c[0]
-#
-#
-# print(d)
+
+# a = x*x
+
+
+
+
+
+
 
 # 18
 
