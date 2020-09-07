@@ -13,3 +13,12 @@
 #
 # print(c)
 
+# 18
+
+# password = input('Enter a password')
+#
+# while password == 'passwordABC':
+#     print('Welcome')
+#     break
+# else:
+#     print('Please try again')
