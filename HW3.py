@@ -22,3 +22,22 @@
 #     break
 # else:
 #     print('Please try again')
+
+
+# password = input('Enter a password')
+# #
+# while password != 'passwordABC':
+#     print('Please try again')
+# else:
+#     print('Welcome')
+
+
+# password = input('Enter a password')
+# #
+# if password == 'passwordABC':
+#     print('Welcome')
+#
+# else:
+#     print('Please try again')
+#
+
