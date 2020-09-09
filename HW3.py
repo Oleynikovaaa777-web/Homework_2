@@ -2,10 +2,15 @@
 
 # 17
 # a = input('Enter a number')
+#  b = a.split('.')
+# # #
+# # # c = b[1]
 
-# x = None
+# # c = x*x
 
-# a = x*x
+# math.sqrt(c)
+
+
 
 
 
