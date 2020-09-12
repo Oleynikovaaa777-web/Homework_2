@@ -1,47 +1,32 @@
 # Ex. 17, 18 '; page 69
 
-# 17
-# a = input('Enter a number')
-#  b = a.split('.')
-# # #
-# # # c = b[1]
-
-# # c = x**x
-
-# math.sqrt(c)
-
-
-
-
-
-
-
-
-# 18
-
-# password = input('Enter a password')
+# # 17
+# import math
 #
-# while password == 'passwordABC':
-#     print('Welcome')
-#     break
-# else:
-#     print('Please try again')
+# a = int(input('Enter a number'))
+# b = math.sqrt(a)
+# print(b)
+#
+# c = math.floor(b)
+# print(c)
 
 
-# password = input('Enter a password')
-# #
+
+
+
+
+
+# # 18
+#
+#
+#
+# password = input('Enter a password: ')
+#
 # while password != 'passwordABC':
-#     print('Please try again')
+#     password = input('Try again: ')
 # else:
-#     print('Welcome')
-
-
-# password = input('Enter a password')
-# #
-# if password == 'passwordABC':
 #     print('Welcome')
 #
-# else:
-#     print('Please try again')
+
 #
 
