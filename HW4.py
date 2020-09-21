@@ -14,7 +14,7 @@
 # 26
 
 # a = int(input('Enter a number: '))
-# count = 1
+# count = 0
 # summa = 0
 #
 # while a != 0:
@@ -30,20 +30,21 @@
 # a = int(input('Enter a number: '))
 # summa = 0
 #
-# while a != 0 and a > 0:
-#     summa += a
+# while a != 0:
+#     if a > 0:
+#         summa += a
 #     a = int(input('Enter a number: '))
 # print(summa)
 
+
 # 29
 
-
-
-
-# a = input('Enter a number: ')
+# a = int(input('Enter a number: '))
 # count = 0
 #
-# while a != 0 and a[-1] == 5:
-#     count += 1
-#     a = input('Enter a number: ')
+# while a != 0:
+#     b = str(a)
+#     if int(b[-1]) == 5:
+#         count += 1
+#     a = int(input('Enter a number: '))
 # print(count)
