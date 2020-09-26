@@ -42,16 +42,15 @@
 # read :page 41
 
 # # 16
-# ???
+
 #
 # a = int(input('Enter a number: '))
 # b = int(input('Enter a number: '))
 # count = 1
 #
 # c = range(a, b+1)
-# x = c[0]
-# y = c[-1]
 #
-# while x <= y:
-#     count*= c
+# for x in c:
+#     count = x ** x
 #     print(count)
+
