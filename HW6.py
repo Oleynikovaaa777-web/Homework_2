@@ -32,3 +32,9 @@
 # from random import randint
 # N = randint(0, N+1)
 # print(N)
+
+
+# 18
+
+from random import uniform
+uniform(a,b)
