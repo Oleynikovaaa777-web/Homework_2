@@ -35,6 +35,6 @@
 
 
 # 18
-
-from random import uniform
-uniform(a,b)
+#
+# from random import uniform
+# uniform(a,b)
